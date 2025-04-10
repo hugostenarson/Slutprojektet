@@ -1,0 +1,14 @@
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\bin\Debug\net8.0\Slutprojektet.exe
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\bin\Debug\net8.0\Slutprojektet.deps.json
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\bin\Debug\net8.0\Slutprojektet.runtimeconfig.json
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\bin\Debug\net8.0\Slutprojektet.dll
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\bin\Debug\net8.0\Slutprojektet.pdb
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\Slutprojektet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\Slutprojektet.AssemblyInfoInputs.cache
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\Slutprojektet.AssemblyInfo.cs
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\Slutprojektet.csproj.CoreCompileInputs.cache
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\Slutprojektet.dll
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\refint\Slutprojektet.dll
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\Slutprojektet.pdb
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\Slutprojektet.genruntimeconfig.cache
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\ref\Slutprojektet.dll
