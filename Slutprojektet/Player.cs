@@ -10,9 +10,8 @@ public class playerAttributes {
 
 public class Player : playerAttributes {
     public Player() {
-        hp = 75;
+        hp = 100;
         attack = Random.Shared.Next(15,80);
     }
 
-    
 }
