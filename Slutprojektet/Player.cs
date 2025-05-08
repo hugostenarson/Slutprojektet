@@ -5,13 +5,11 @@ using System.Reflection.Metadata.Ecma335;
 
 public class playerAttributes {
     public int hp;
-    public int attack;
 }
 
 public class Player : playerAttributes {
     public Player() {
         hp = 100;
-        attack = Random.Shared.Next(15,80);
     }
 
 public static int GetNextGuess() 
@@ -30,8 +28,7 @@ public static int GetNextGuess()
         {
             return; //En död spelare kan inte attackera
         }
-
-        entity.hp -= attack;
+        entity.hp -= Random.Shared.Next(15,80);
 
         if (entity.hp < 0) 
         {

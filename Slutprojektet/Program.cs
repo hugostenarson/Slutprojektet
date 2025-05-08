@@ -10,5 +10,4 @@ if (correctguess)
 }
 
 
-Console.ReadLine();
 

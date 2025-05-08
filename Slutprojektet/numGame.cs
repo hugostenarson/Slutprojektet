@@ -41,7 +41,7 @@ public bool StartGuessing()
 
                 if (guessCount != entityNum) //Game over om sista gissningen är fel
                 {
-                    System.Console.WriteLine("Slut på gissningar, nu dör du...");
+                    System.Console.WriteLine("Slut på gissningar, nu äter den upp dig...");
                     System.Console.WriteLine("Tryck på valfri knapp för att \"passera till andra sidan\".");
                     Console.ReadKey();
                     System.Environment.Exit(0);
@@ -69,7 +69,6 @@ public void Fight()
         bear.Attack(player);
         Thread.Sleep(2000);
         player.Attack(bear);
-        // player.hp = 0;
     }
     if (bear.hp == 0)
     {
