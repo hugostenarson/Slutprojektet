@@ -6,7 +6,6 @@ public int entityNum = Random.Shared.Next(1, 11);
 public int guessCount = 5;
 
 
-
 public bool StartGuessing()
 {
     Console.WriteLine($"Gissa ett heltal mellan 1 och 10. Du har totalt {guessCount} gissningar.");
@@ -16,11 +15,7 @@ public bool StartGuessing()
 
     while (guessCount > 0)
     {
-        int guess;
-        //Läs in och kontrollerar att användar-input är ett heltal mellan 1 och 10.
-        while (!int.TryParse(Console.ReadLine(), out guess) || guess < 1 || guess > 10) {
-            Console.WriteLine("Skriv endast heltal mellan 1 och 10!");
-        }
+        int guess = Player.GetNextGuess();
 
         if (guess == entityNum)
         {
@@ -61,34 +56,9 @@ public bool StartGuessing()
 Bear bear = new();
 Player player = new();
 
-public void PlayerAttack()
-{
-    if (player.hp <= 0)
-    {
-        return; //En död spelare kan inte attackera
-    }
 
-    bear.hp -= player.attack;
-    if (bear.hp < 0) 
-    {
-        bear.hp = 0;
-    }
-    System.Console.WriteLine($"Du slår tillbaka och träffar björnen! Den har nu {bear.hp} HP kvar.");
-}
 
-public void EntityAttack()
-{
-      if (bear.hp <= 0)
-    {
-        return; //En död entitet kan inte heller attackera.
-    }
-    player.hp -= bear.attack;
-    if (player.hp < 0)
-    {
-        player.hp = 0;
-    }
-    System.Console.WriteLine($"Björnen attackerar dig! Du har nu {player.hp} HP kvar.");
-}
+
 
 public void Fight()
 {
@@ -96,9 +66,9 @@ public void Fight()
     {
         Thread.Sleep(4000);
         System.Console.WriteLine("");
-        EntityAttack();
+        bear.Attack(player);
         Thread.Sleep(2000);
-        PlayerAttack();
+        player.Attack(bear);
         // player.hp = 0;
     }
     if (bear.hp == 0)
