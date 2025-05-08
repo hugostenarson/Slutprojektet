@@ -12,3 +12,4 @@ C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net
 C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\Slutprojektet.pdb
 C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\Slutprojektet.genruntimeconfig.cache
 C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\ref\Slutprojektet.dll
+C:\Users\hugo.stenarson\Desktop\Prog 2\Slutprojektet\Slutprojektet\obj\Debug\net8.0\Slutprojektet.sourcelink.json
