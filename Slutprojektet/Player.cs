@@ -24,6 +24,7 @@ public static int GetNextGuess()
 
     public void Attack(Entity entity)
     {
+        
         if (hp <= 0)
         {
             return; //En död spelare kan inte attackera
@@ -34,6 +35,6 @@ public static int GetNextGuess()
         {
             entity.hp = 0;
         }
-        System.Console.WriteLine($"Du slår tillbaka och träffar björnen! Den har nu {entity.hp} HP kvar.");
+        System.Console.WriteLine($"Du slår tillbaka! Den har nu {entity.hp} HP kvar.");
     }
 }
