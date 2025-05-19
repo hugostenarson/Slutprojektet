@@ -13,7 +13,7 @@ public class Entity {
         {
             return; //En död entitet kan inte attackera.
         }
-        player.hp -= Random.Shared.Next(minAttack,maxAttack);
+        player.hp -= Random.Shared.Next(minAttack,maxAttack); //Spelaren tar en slumpmässig mängd i skada slumpat från entitetens svagaste och starkaste möjliga attack.
         if (player.hp < 0)
         {
             player.hp = 0;
@@ -43,12 +43,24 @@ public class Wolf : Entity {
     }
 }
 
-public class Serpent : Entity {
+public class Serpent : Entity
+{
     public Serpent()
     {
         name = "orm";
         hp = 75;
         minAttack = 15;
         maxAttack = 60;
+    }
+}
+
+public class Tiger : Entity
+{
+    public Tiger()
+    {
+        name = "tiger";
+        hp = 100;
+        minAttack = 20;
+        maxAttack = 80;
     }
 }
